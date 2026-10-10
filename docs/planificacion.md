@@ -78,6 +78,13 @@ corresponde a una tarea de la tabla anterior e incluye en su descripción la
 fase, la estimación, las dependencias y la evidencia que la cierra (commit de
 Git, archivo de pruebas o documento).
 
+**Vista de cronograma en Asana.** Las tareas de desarrollo, pruebas e
+investigación aparecen finalizadas el 10 de octubre; la documentación (T12)
+queda en revisión y la entrega (T14) en progreso, ambas con fecha límite el
+lunes 12 de octubre.
+
+![Cronograma del proyecto en Asana](img/asana_cronograma.png)
+
 ## Planificado frente a real
 
 | ID | Tarea | Estimado (h) | Fecha planificada | Fecha real | Estado | Evidencia |
