@@ -11,3 +11,7 @@ class TaskNotFoundError(TaskManagerError):
     def __init__(self, task_id: int) -> None:
         super().__init__(f"No existe una tarea con id {task_id}")
         self.task_id = task_id
+
+
+class StorageError(TaskManagerError):
+    """Se lanza cuando el archivo de datos no se puede leer o escribir."""
